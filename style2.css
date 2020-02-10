@@ -1,0 +1,10 @@
+body {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    padding: 20px;
+    border: dotted;
+    border-color: solid hotpink 10px; 
+}

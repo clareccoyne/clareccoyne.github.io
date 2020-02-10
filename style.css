@@ -1,0 +1,9 @@
+body {
+background-color: lightskyblue; 
+}
+
+img {
+    padding: 10px;
+    border: dotted;
+    border-color: solid black 10px;
+}
