@@ -1,0 +1,31 @@
+body {
+    background-color: black; 
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-color: lawngreen;
+    }
+
+    h1 {
+        color: hotpink; text-align: center;
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 30px; font-weight: bold; font-style: italic; font-stretch: wider;
+    }
+
+
+head {
+}
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+footer {
+    
+}
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
