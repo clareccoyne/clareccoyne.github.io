@@ -4,17 +4,17 @@ body {
 }
 
 div {
-    display: block;
-    max-width: 100%;
+    display: flex; flex-direction: column;
+    max-width: 500px;
     position: relative;
-    display: over;
     align-content: center;
     padding: 30px; 
-    margin: 0px auto 0px auto;
+    margin: 0px auto;
 }
 
 img {
     filter: saturate(0%);
+    size: 50%;
 }
 
 img:hover{
