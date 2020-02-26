@@ -1,3 +1,23 @@
 body {
     background-color: black;
+    background-image: url("glitch.png");
 }
+
+div {
+    display: block;
+    max-width: 100%;
+    position: relative;
+    display: over;
+    align-content: center;
+    padding: 30px; 
+    margin: 0px auto 0px auto;
+}
+
+img {
+    filter: saturate(0%);
+}
+
+img:hover{
+    filter: saturate(100%);
+}
+
