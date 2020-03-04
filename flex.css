@@ -1,12 +1,13 @@
 body {
     background-color: black;
     background-image: url("glitch.png");
+    background-position: fixed;
 }
 
 div {
     display: flex; flex-direction: column;
     max-width: 500px;
-    position: relative;
+    position: sticky;
     align-content: center;
     padding: 30px; 
     margin: 0px auto;
