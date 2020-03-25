@@ -1,0 +1,131 @@
+body {
+    background-image: url("stars.gif");
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: hotpink;
+    z-index: 1;
+    position: absolute;
+    left: 1000px;
+    top: 40px;
+    font-size: 30px; font-weight: bold; font-style: italic;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: lawngreen;
+    z-index: 1;
+    position: absolute;
+    left: 1000px;
+    top: 80px;
+    font-size: 20px; font-weight: bold; font-style: italic; 
+}
+
+#img1 {
+    max-width: 40%;
+}
+
+#img2 {
+    max-width: 50%;
+}
+
+#img3 {
+    max-width: 50%;
+}
+
+#img4 {
+    max-width: 45%
+}
+
+#img5 {
+    max-width: 50%;
+}
+
+#img6 {
+    max-width: 60%;
+}
+
+#img7 {
+    max-width: 80%;
+}
+
+#img8 {
+    max-width: 75%;
+}
+
+#img9 {
+    max-width: 55%;
+}
+
+.planets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    grid-auto-rows: 100px, auto;
+    max-width: auto;
+    max-height: auto;
+}
+
+.one {
+    grid-column: 2/4;
+    grid-row: 2;
+    justify-self: right;
+    align-self: center;
+}
+
+
+.two {
+    grid-column: 4;
+    grid-row: 3;
+    justify-self: end;
+    align-self: start;
+}
+
+
+.three {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+.four {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: end;
+    justify-self: right;
+    
+}
+
+.five {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: center;
+}
+
+.six {
+    grid-column: 4;
+    grid-row: 2;
+    justify-self: right;
+    align-self: start;
+}
+
+.seven {
+    grid-column: 1;
+    grid-row: 2/5;
+    align-self: start;
+    justify-self: right;
+}
+
+.eight {
+    grid-column: 3;
+    grid-row: 3;
+    align-self: start;
+}
+
+.nine {
+    grid-column: 2;
+    grid-row: 1;
+    vertical-align: bottom;
+}

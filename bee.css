@@ -1,0 +1,147 @@
+
+
+body{
+    background-image: url(clouds.png);
+    background-color: rgba(0, 132, 255, 0.781);
+}
+#hive {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 90%;
+}
+h1{
+    font-family: cursive;
+    color: yellow;
+    z-index: 1;
+    position: absolute;
+    font-size: 50px;
+    top: 30px;
+    left: 900px;
+}
+#honeyhive {
+    z-index: 1;
+    position: absolute;
+    top: 140px;
+    left: 980px;
+    size: 150px;
+}
+h2{
+    font-family: cursive;
+    color: black;
+    z-index: 1;
+    position: absolute;
+    font-size: 20px;
+    top: 600px;
+    left: 170px;
+    text-decoration: underline;
+}
+
+#bee1{
+    position: absolute;
+    z-index: 2;
+    max-width: 60px;
+    top: 50px;
+    left: 180px;
+}
+
+#bee2{
+    position: absolute;
+    z-index: 2;
+    max-width: 110px;
+    top: 390px;
+    left: 300px;
+}
+
+#bee3{
+    position: absolute;
+    z-index: 2;
+    max-width: 150px;
+    top: 440px;
+    left: 600px;
+}
+
+#bee4{
+    position: absolute;
+    z-index: 2;
+    max-width: 100px;
+    top: 570px;
+    left: 1000px;
+}
+
+#bee5{
+    position: absolute;
+    z-index: 2;
+    max-width: 110px;
+    top: 250px;
+    left: 940px;
+}
+
+#bee6{
+    position: absolute;
+    z-index: 2;
+    max-width: 150px;
+    top: 25px;
+    left: 1240px;
+}
+
+#bee7{
+    position: absolute;
+    z-index: 2;
+    max-width: 90px;
+    top: 150px;
+    left: 780px;
+}
+
+#bee8{
+    position: absolute;
+    z-index: 2;
+    max-width: 90px;
+    top: 190px;
+    left: 480px;
+}
+
+#back {
+    position: absolute;
+    z-index: 2;
+    max-width: 150px;
+    top: 570px;
+    left: 1200px;
+}
+
+.bees1{
+    z-index: 2;
+    width: 150px;
+}
+
+.appear1 {
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+#honey1 {
+    display: none;
+    position: absolute;
+    max-width: 50px;
+    top: 600px;
+    left: 210px;
+    z-index: 2;
+
+}
+
+#p1 {
+    display: none;
+    font-family: cursive;
+    color: black;
+    font-size: 15px;
+    top: 80px;
+    left: 150px;
+    z-index: 2;
+}
+
+.bees1:active {
+    display: block;
+}
