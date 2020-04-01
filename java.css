@@ -1,0 +1,16 @@
+button {
+    padding: 50px;
+}
+   
+   button:hover {
+    border: 5px solid yellow;
+   }
+
+   a {
+       opacity: 0%;
+   }
+
+   img {
+       opacity: 0%;
+       size: 50%;
+   }
