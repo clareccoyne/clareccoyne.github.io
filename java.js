@@ -7,7 +7,7 @@ let theText = document.querySelector('h2');
 let theBody = document.querySelector('body');
 let theLink = document.querySelector('a');
 let theImage = document.querySelector('img');
-let colors = ['red', 'green', 'blue', 'purple', 'yellow', 'pink', 'orange', 'white', 'black'];
+let colors = ['fuschia', 'lightgreen', 'lightblue', 'violet', 'yellow', 'pink', 'peachpuff', 'white', 'black'];
 
 // console.log(theText)
 
@@ -21,7 +21,7 @@ function isClicked() {
     theBody.style.backgroundColor = colors[colorIndex];
     theText.style.color = "blue";
     theText.textContent = "you turned me blue!";
-    theBody.style.backgroundImage = "url('butterfly.gif')";
+    theBody.style.backgroundImage = "url('clouds.png')";
     theLink.style.opacity = 100
     theImage.style.opacity = 100
 }
