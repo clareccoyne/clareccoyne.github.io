@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+    <title>exploring game</title>
+    <link rel="icon" href="froggy.ico" type="image/x-icon/">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="explore.css">
+    <script src="explore.js" defer></script>
+
+	</head>
+    <body>
+        <div class="standard">
+            <button class="circleBase type1"></button>
+            <div class="speech-bubble speech-type1" id="opposum" style="display: none;">
+                <p>Hmmmmm... what are all those sparkles?</p>
+            </div>
+        </div>
+
+        <div class="possum">
+            <img id=possum src="possum.png">
+        </div>
+        
+        <div class="sheep">
+            <img id=sheep src="sheep.png">
+        </div>
+
+
+        <div class="notstandard" id="opacity">
+            <button type="button" class="startButton" onclick="typeWriter()">Start</button>
+            <p id="demo">
+                <!-- "Oh no! It's starting to get dark and Squirrel is nowhere to be found! Look around the woods for clues, maybe someone knows where he went! *HINT* investigate the sparkles!!!" -->
+            </p>
+        </div>
+
+        <div class="sparkles">
+            <div class="one">
+                <button type="button" class="button1" onclick="FairySpeech1()" onclick="FairyImage1()" ><img id="img1" src="sparkless.gif"></button>
+                <div class="text-bubble text-type1" id="fairy1" style="display: none;">
+                    <img id="fairyone" src="fairy.gif">
+                    <p id="clue1">a lost friend? i can feel you're troubled...</p>
+                </div>
+            </div>
+            <div class="two">
+                <button type="button" class="button2" onclick="FairySpeech2()" onclick="FairyImage2()" ><img id="img1" src="sparkless.gif"></button>
+                <div class="text-bubble text-type2" id="fairy2" style="display: none;">
+                    <img id="fairytwo" src="fairy.gif">
+                    <p id="clue2">don't fret you two! your friend is closer than you think...</p>
+                </div>
+            </div>
+            <div class="three">
+                <button type="button" class="button3" onclick="FairySpeech3()" onclick="FairyImage3()" ><img id="img1" src="sparkless.gif"></button>
+                <div class="text-bubble text-type3" id="fairy3" style="display: none;">
+                    <img id="fairythree" src="fairy.gif">
+                    <p id="clue3">remember... there's no reason to be afraid of the dark!</p>
+                </div>
+            </div>
+            <div class="four">
+                <button type="button" class="button4" onclick="FairySpeech4()" onclick="FairyImage4()" ><img id="img1" src="sparkless.gif"></button>
+                <div class="text-bubble text-type4" id="fairy4" style="display: none;">
+                    <img id="fairyfour" src="fairy.gif">
+                    <p id="clue4">what's the difference between stalagmites and stalctites?</p>
+                </div>
+            </div>
+            <div class="five">
+                <button type="button" class="button5" onclick="FairySpeech5()" onclick="FairyImage5()" ><img id="img1" src="sparkless.gif"></button>
+                <div class="text-bubble text-type5" id="fairy5" style="display: none;">
+                    <img id="fairyfive" src="fairy.gif">
+                    <p id="clue5">the sound of running water is so peaceful... i can feel myself dozing....</p>
+                </div>
+            </div>
+            <div class="six">
+                <button type="button" class="button6" onclick="FairySpeech6()" onclick="FairyImage6()" ><img id="img1" src="sparkless.gif"></button>
+                <div class="text-bubble text-type6" id="fairy6" style="display: none;">
+                    <img id="fairysix" src="fairy.gif">
+                    <p id="clue6">if you fly above the trees, you can see everything!</p>
+                </div>
+            </div>
+            <div class="seven">
+                <button type="button" class="button7" onclick="FairySpeech7()" onclick="FairyImage7()" ><img id="img1" src="sparkless.gif"></button>
+                <div class="text-bubble text-type7" id="fairy7" style="display: none;">
+                    <img id="fairyseven" src="fairy.gif">
+                    <p id="clue7">the ground in the forest is soft... look for footprints!</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </body>
+</html>
