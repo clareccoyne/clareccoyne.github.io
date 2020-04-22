@@ -139,7 +139,7 @@ p {
     grid-column: 1;
     grid-row: 1;
     justify-self: left;
-    align-self: center;
+    align-self: end;
 }
 
 .button1 {
@@ -148,8 +148,10 @@ p {
 }
 
 .button1:hover {
-    background-color:rgba(248, 118, 220, 0.5);
-    border-radius: 150px;
+    background-color:rgba(248, 118, 220, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(248, 118, 220, 0.2);
+
 }
 
 .two {
@@ -160,8 +162,9 @@ p {
 }
 
 .button2:hover {
-    background-color:rgba(248, 118, 220, 0.5);
-    border-radius: 150px;
+    background-color:rgba(248, 118, 220, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(248, 118, 220, 0.2);
 }
 
 .button2 {
@@ -182,8 +185,9 @@ p {
 }
 
 .button3:hover {
-    background-color:rgba(248, 118, 220, 0.5);
-    border-radius: 150px;
+    background-color:rgba(248, 118, 220, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(248, 118, 220, 0.2);
 }
 
 .four {
@@ -199,8 +203,9 @@ p {
 }
 
 .button4:hover {
-    background-color:rgba(248, 118, 220, 0.5);
-    border-radius: 150px;
+    background-color:rgba(248, 118, 220, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(248, 118, 220, 0.2);
 }
 
 .five {
@@ -216,14 +221,15 @@ p {
 }
 
 .button5:hover {
-    background-color:rgba(248, 118, 220, 0.5);
-    border-radius: 150px;
+    background-color:rgba(248, 118, 220, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(248, 118, 220, 0.2);
 }
 
 .six {
     grid-column: 2;
     grid-row: 3;
-    justify-self: right;
+    justify-self: end;
     align-self: center;
 }
 
@@ -233,8 +239,9 @@ p {
 }
 
 .button6:hover {
-    background-color:rgba(248, 118, 220, 0.5);
-    border-radius: 150px;
+    background-color:rgba(248, 118, 220, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(248, 118, 220, 0.2);
 }
 
 .seven {
@@ -250,8 +257,9 @@ p {
 }
 
 .button7:hover {
-    background-color:rgba(248, 118, 220, 0.5);
-    border-radius: 150px;
+    background-color:rgba(248, 118, 220, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(248, 118, 220, 0.2);
 }
 
 #img1 {
@@ -263,30 +271,9 @@ p {
     width: 33.3%;
 }
 
-.circleBase2 {
-    border-radius: 50%;
-    /* behavior: url(PIE.htc); */
-    width: 100px;
-    height: 100px;
-    background: none;
-    padding: 0;
-    border: none;
-}
-
-.type2 {
-    position: absolute;
-    z-index: 1;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-.circleBase2:hover {
-    background: rgba(248, 118, 220, 0.5);
-}
-
 .text-bubble {
     display: none;
-    background: rgba(248,118,220);
+    background: rgba(226,118,248,0.8);
     -webkit-border-radius: 4px;
     border-radius: 4px;
     font-size: 1.2rem;
@@ -298,8 +285,10 @@ p {
 }
 
 .text-type1 {
-    margin-top: 400px;
-    margin-left: 700px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 200px;
 }
 
 .text-bubble p {
@@ -310,11 +299,100 @@ p {
     margin-bottom: 0;
 }
 
-.text-bubble::after {
-    border-left: 20px solid transparent;
-    border-top: 20px solid rgba(248, 118, 220);
-    bottom: -20px;
-    content: "";
+#fairyone {
     position: absolute;
-    right: 20px;
+    z-index: 2;
+    width: 100px;
+    top: 80px;
+    left: 350px;
+}
+
+.text-type2 {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 700px;
+}
+
+#fairytwo {
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    top: 20px;
+    left: 950px;
+}
+
+.text-type3 {
+    position: absolute;
+    z-index: 2;
+    top: 220px;
+    left: 900px;
+}
+
+#fairythree {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    top: 220px;
+    left: 1150px;
+}
+
+.text-type4 {
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    left: 380px;
+}
+
+#fairyfour {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    top: 280px;
+    left: 500px;
+}
+
+.text-type5 {
+    position: absolute;
+    z-index: 2;
+    top: 500px;
+    left: 1210px;
+}
+
+#fairyfive {
+    position: absolute;
+    z-index: 2;
+    width: 170px;
+    top: 440px;
+    left: 1100px;
+}
+
+.text-type6 {
+    position: absolute;
+    z-index: 2;
+    top: 500px;
+    left: 20px;
+}
+
+#fairysix {
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    top: 540px;
+    left: 150px;
+}
+
+.text-type7 {
+    position: absolute;
+    z-index: 2;
+    top: 500px;
+    left: 500px;
+}
+
+#fairyseven {
+    position: absolute;
+    z-index: 2;
+    width: 250px;
+    top: 550px;
+    left: 600px;
 }
