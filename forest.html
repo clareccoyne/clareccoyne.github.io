@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+    <title>exploring game</title>
+    <link rel="icon" href="froggy.ico" type="image/x-icon/">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="forest.css">
+    <script src="forest.js" defer></script>
+
+	</head>
+    <body>
+        <div class="standard">
+            <button class="circleBase type1"></button>
+            <div class="speech-bubble speech-type1" id="opposumtalk" style="display: none;">
+                <p>the fairies said not to be afraid of the dark! ... hey do you guys hear that?</p>
+            </div>
+
+            <button class="circleBase type2"></button>
+            <div class="speech-bubble speech-type2" id="sheeptalk" style="display: none;">
+                <p>it's so dark...and cold. where is that wind coming from?</p>
+            </div>
+
+        </div>
+
+        <div class="possum">
+            <img id=possum src="possum2.png">
+        </div>
+        
+        <div class="sheep">
+            <img id=sheep src="sheep2.png">
+        </div>
+
+        <div class="fox">
+            <img id=fox src="fox2.png">
+        </div>
+
+
+        <div class="notstandard" id="opacity">
+            <button type="button" class="startButton" onclick="typeWriter()">Start</button>
+            <p id="demo">
+                <!-- "Oh no! It's starting to get dark and Squirrel is nowhere to be found! Look around the woods for clues, maybe someone knows where he went! *HINT* investigate the sparkles!!!" -->
+            </p>
+        </div>
+        
+        <div class="vines">
+            <button type="button" class="vine1" onclick="disappearLast()">
+                <img id=vines1 src="vines.png">
+            </button>
+            <button type="button" class="vine2" onclick="disappear()">
+                <img id=vines2 src="Vines2.png">
+            </button>
+            <button type="button" class="vine3" onclick="disappear()">
+                <img id=vines3 src="vines3.png">
+            </button>
+            <button type="button" class="vine4" onclick="disappear()">
+                <img id=vines4 src="vines4.png">
+            </button>
+        </div>
+
+        <div class="arrow" style="display: none;">
+            <a href="cave.html"><img id=back src="arrow.png"></a>
+        </div>
+
+        <div class="text-bubble text-type1" id="next" style="display: none;">
+            <p id="clue">look! it's the entrance to a cave! what's that sound coming from inside..?</p>
+        </div>
+    </body>
+</html>

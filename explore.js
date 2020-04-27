@@ -29,6 +29,7 @@ let theFairySpeech6 = document.querySelector("#fairy6");
 let theFairyImage6 = document.querySelector("#fairysix");
 let theFairySpeech7 = document.querySelector("#fairy7");
 let theFairyImage7 = document.querySelector("#fairyseven");
+let theArrows = document.querySelector(".arrow");
 let theText = document.querySelector("#demo");
 
 theButton.addEventListener("click", isClicked);
@@ -120,6 +121,7 @@ function fairyClick6() {
 function fairyClick7() {
     theFairySpeech7.style.display = "block";
     theFairyImage7.style.display = "block";
+    theArrows.style.display = "block";
     setTimeout(function() {
         theFairySpeech7.style.display= "none";}, 5000);
     setTimeout(function() {
