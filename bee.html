@@ -1,31 +1,50 @@
 <html>
-    <title>My Midterm: Adventure Game</title>
+    <title>Adventure Game</title>
     <link rel="icon" href="froggy.ico" type="image/x-icon/">
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="bee.css" >
+    <script src="bee.js" defer></script>
 <body>
     <img id="hive" src="beehive.jpg" >
     <h1>welcome to the</h1>
     <img id="honeyhive" src="honey.png" >
     <h2>objective: find 5 lost jars of honey! don't get stung!!</h2>
 
+    <div class="one">
+        <button type="button" class="button1" onclick="beeClick1()"><img id="bee1" src="minecraft.gif" ></button>
+        <img id="honey1" style="display: none;" src="jar.png">
+        <p id="p1" style="display: none;">you found honey!</p>
+    </div>
+    <div class="two">
+        <button type="button" class="button2" onclick="beeClick2()"><img id="bee2" src="realbee.gif" ></button>
+        <img id="honey2" style="display: none;" src="jar.png">
+        <p id="p1" style="display: none;">you found honey!</p>
+    </div> 
+    <div class="three">
+        <button type="button" class="button3" onclick="beeClick3()"><img id="bee3" src="busybee.gif" ></button>
+    </div> 
+    <div class="four">
+        <button type="button" class="button4" onclick="beeClick4()"><img id="bee4" src="minecraft.gif" ></button>
+        <img id="honey3" style="display: none;" src="jar.png">
+        <p id="p1" style="display: none;">you found honey!</p>
+    </div> 
+    <div class="five">
+        <button type="button" class="button5" onclick="beeClick5()"><img id="bee5" src="realbee.gif" ></button>
+    </div> 
+    <div class="six">
+        <button type="button" class="button6" onclick="beeClick6()"><img id="bee6" src="busybee.gif" ></button>
+        <img id="honey4" style="display: none;" src="jar.png">
+        <p id="p1" style="display: none;">you found honey!</p>
+    </div> 
+    <div class="seven">
+        <button type="button" class="button7" onclick="beeClick7()"><img id="bee7" src="minecraft.gif" ></button>
+        <img id="honey5" style="display: none;" src="jar.png">
+        <p id="p1" style="display: none;">you found honey!</p>
+    </div> 
+    <div class="eight">
+        <button type="button" class="button8" onclick="beeClick8()"><img id="bee8" src="realbee.gif" ></button>
+    </div>     
     
-    <div class="bees" >
-    <div class="bees1">
-        <img id="bee1" src="minecraft.gif" >
-        <div class="appear1">
-            <img id="honey1" src="jar.png">
-            <p id="p1">you found honey!</p>
-        </div>
-    </div>
-        <img id="bee2" src="realbee.gif" >
-        <img id="bee3" src="busybee.gif" >
-        <img id="bee4" src="minecraft.gif" >
-        <img id="bee5" src="realbee.gif" >
-        <img id="bee6" src="busybee.gif" >
-        <img id="bee7" src="minecraft.gif" >
-        <img id="bee8" src="realbee.gif" >
-    </div>
     
     <img id="back" src="beeheart.gif" >
 </body>

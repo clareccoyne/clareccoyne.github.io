@@ -37,9 +37,27 @@ h2{
     top: 600px;
     left: 170px;
     text-decoration: underline;
+    background-color: yellow;
 }
 
-#bee1{
+.button1{
+    background:none;
+    border:none;
+    z-index: 2;
+    max-width: 60px;
+    top: 50px;
+    left: 180px;
+}
+
+#bee1:hover {
+    transform: scale(1.1);
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+
+}
+
+#bee1 {
     position: absolute;
     z-index: 2;
     max-width: 60px;
@@ -47,7 +65,21 @@ h2{
     left: 180px;
 }
 
-#bee2{
+.button2{
+    background:none;
+    border:none;
+    z-index: 2;
+}
+
+#bee2:hover {
+    transform: scale(1.1);
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+
+}
+
+#bee2 {
     position: absolute;
     z-index: 2;
     max-width: 110px;
@@ -55,7 +87,21 @@ h2{
     left: 300px;
 }
 
-#bee3{
+.button3{
+    background:none;
+    border:none;
+    z-index: 2;
+}
+
+#bee3:hover {
+    transform: scale(1.1);
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+
+}
+
+#bee3 {
     position: absolute;
     z-index: 2;
     max-width: 150px;
@@ -63,7 +109,21 @@ h2{
     left: 600px;
 }
 
-#bee4{
+.button4{
+    background:none;
+    border:none;
+    z-index: 2;
+}
+
+#bee4:hover {
+    transform: scale(1.1);
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+
+}
+
+#bee4 {
     position: absolute;
     z-index: 2;
     max-width: 100px;
@@ -71,7 +131,21 @@ h2{
     left: 1000px;
 }
 
-#bee5{
+.button5{
+    background:none;
+    border:none;
+    z-index: 2;
+}
+
+#bee5:hover {
+    transform: scale(1.1);
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+
+}
+
+#bee5 {
     position: absolute;
     z-index: 2;
     max-width: 110px;
@@ -79,7 +153,21 @@ h2{
     left: 940px;
 }
 
-#bee6{
+.button6{
+    background:none;
+    border:none;
+    z-index: 2;
+}
+
+#bee6:hover {
+    transform: scale(1.1);
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+
+}
+
+#bee6 {
     position: absolute;
     z-index: 2;
     max-width: 150px;
@@ -87,7 +175,21 @@ h2{
     left: 1240px;
 }
 
-#bee7{
+.button7{
+    background: none;
+    border: none;
+    z-index: 2;
+}
+
+#bee7:hover {
+    transform: scale(1.1);
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+
+}
+
+#bee7 {
     position: absolute;
     z-index: 2;
     max-width: 90px;
@@ -95,7 +197,21 @@ h2{
     left: 780px;
 }
 
-#bee8{
+.button8{
+    background: none;
+    border: none;
+    z-index: 2;
+}
+
+#bee8:hover {
+    transform: scale(1.1);
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 190px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+
+}
+
+#bee8 {
     position: absolute;
     z-index: 2;
     max-width: 90px;
@@ -111,6 +227,10 @@ h2{
     left: 1200px;
 }
 
+#back:hover {
+    transform: scale(1.2);
+}
+
 .bees1{
     z-index: 2;
     width: 150px;
@@ -123,23 +243,62 @@ h2{
 }
 
 #honey1 {
-    display: none;
     position: absolute;
     max-width: 50px;
-    top: 600px;
-    left: 210px;
-    z-index: 2;
+    top: 650px;
+    left: 300px;
+    z-index: 3;
+
+}
+
+#honey2 {
+    position: absolute;
+    max-width: 50px;
+    top: 650px;
+    left: 360px;
+    z-index: 3;
+
+}
+
+#honey3 {
+    position: absolute;
+    max-width: 50px;
+    top: 650px;
+    left: 420px;
+    z-index: 3;
+
+}
+
+#honey4 {
+    position: absolute;
+    max-width: 50px;
+    top: 650px;
+    left: 480px;
+    z-index: 3;
+
+}
+
+#honey5 {
+    position: absolute;
+    max-width: 50px;
+    top: 650px;
+    left: 540px;
+    z-index: 3;
 
 }
 
 #p1 {
-    display: none;
+    position: absolute;
     font-family: cursive;
-    color: black;
-    font-size: 15px;
-    top: 80px;
-    left: 150px;
-    z-index: 2;
+    color: rgb(244, 117, 255);
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 30px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    top: 500px;
+    left: 400px;
+    z-index: 3;
 }
 
 .bees1:active {
