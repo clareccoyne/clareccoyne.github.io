@@ -301,6 +301,41 @@ h2{
     z-index: 3;
 }
 
-.bees1:active {
-    display: block;
+#ouch {
+    background-color:rgba(100, 100, 100, 0.6);
+    border-radius: 250px;
+    box-shadow: 0 0 20px 20px rgba(100, 100, 100, 0.6);
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 500px;
+    z-index: 5;
+}
+
+#sting {
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+    background-color: black;
+    padding: 5px;
+    width: 500px;
+
+}
+
+#leave {
+    position: absolute;
+    top: 470px;
+    left: 900px;
+    z-index: 5;
+    font-family: cursive;
+    font-size: 28px;
+    color: black;
+    text-decoration: underline;
+    padding: 5px;
+    width: 500px;
 }

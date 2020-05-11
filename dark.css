@@ -1,7 +1,7 @@
 body {
     background-color: black;
 }
-h1 {
+#one {
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
     text-decoration: underline;
@@ -9,6 +9,34 @@ h1 {
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
+#three {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#six {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#eight {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .flash {
     background-image: url("flashing.gif");
 }
@@ -18,22 +46,68 @@ h1 {
     font-size: 80px;
     font-weight: bold;
     text-align: center;
-    padding-top: 600px;
-    padding-bottom: 600px;
+    padding-top: 325px;
+    padding-bottom: 325px;
 }
-h2 {
+#two {
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
     text-align: center;
-    padding-top: 500px;
-    padding-bottom: 500px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
-#red {
+#four {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#five {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#seven {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#nine {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+#red1 {
+    position: absolute;
+    top: 500px;
+    left: 100px;
     max-width: 50px;
     align-content: center ;
     padding-left: 200px;
-    padding-bottom: 600px;
+    padding-bottom: 200px;
+}
+
+#red2 {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    max-width: 50px;
+    align-content: center ;
+    padding-left: 200px;
+    padding-bottom: 200px;
 }
 
 @-webkit-keyframes blink {
@@ -60,13 +134,26 @@ h2 {
     animation-iteration-count: infinite;
 }
 
-h3 {
+.monster {
+    background-image: url("scary.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:0px;
+    padding:0px;
+}
+
+#ten {
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 20px;
     color: red;
     text-decoration: underline;
     font-weight: bold;
     font-size: 50px;
-    position: absolute;
-    top: 10300px;
-    left: 700px;
+}
+
+#monster {
+    width: 600px;
+    padding-top: 10px;
+    padding-left: 500px;
 }

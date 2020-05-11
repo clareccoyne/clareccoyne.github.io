@@ -1,48 +1,51 @@
 <html>
-    <title>My Midterm: Adventure Game</title>
+    <title>Adventure Game</title>
     <link rel="icon" href="froggy.ico" type="image/x-icon/">
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="dark.css" >
+    <script src="dark.js" defer></script>
 <body>
-    <h1>
+    <h1 id=one>
         Where am I? What's going on?
     </h1>
 
-    <h2>
+    <h2 id=two style="display: none;">
         Why is it so dark in here?? can someone turn on a light?
     </h2>
 
-    <div class="flash">
-        <p id="warning">WARNING! DO NOT PROCEED</p>
+    <div class="flash" style="display: none;">
+        <p id="warning" style="display: none;" onclick="warningClick()">WARNING! DO NOT PROCEED</p>
     </div>
 
-    <h1>
+    <h1 id=three style="display: none;">
         Huh. That was weird... Hey! I think i see something...
     </h1>
 
-    <h2>
-        What are those red lights?
+    <h2 id=four style="display: none;">
+        What are those red glowing things?
     </h2>
 
-    <div class="red">
-        <img id="red" src="red.png">
-        <img id="red" src="red.png">
+    <div class="red" style="display: none;">
+        <img id="red1" style="display: none;" src="red.png">
+        <img id="red2" style="display: none;" src="red.png">
     </div>
 
-    <div class="monster"> 
-        <img id="monster1" src="creep.gif">
+    <h2 id=five style="display: none;">*CRACK*</h2>
+
+    <h1 id=six style="display: none;">What was that noise?</h1>
+
+    <h2 id=seven style="display: none;">*shuffle shuffle shuffle*</h2>
+
+    <h1 id=eight style="display: none;">is the ground moving....? I'm scared</h1>
+
+    <h2 id=nine style="display: none;">*GGRRGRRRRTRGG NKANVKSDSGRGRSRGRFGFGGRGR*</h2>
+
+    <div class=monster style="display: none;">
+        <a href="adventure.html"><h3 id=ten style="display: none;">YOU DIED LOL. A DEMON ATE YOU :/</h3></a>
+        <img id=monster style="display: none;" src="demonhands.png">
+        
     </div>
 
-    <h2>*CRACK*</h2>
-
-    <h1>What was that noise?</h1>
-
-    <h2>*shuffle shuffle shuffle*</h2>
-
-    <h1>it kind of sounds like...</h1>
-
-    <h2>*GGRRGRRRRTRGG NKANVKSDSGRGRSRGRFGFGGRGR*</h2>
-
-    <h3>YOU DIED LOL.</h3>
+    
 </body>
 </html>
